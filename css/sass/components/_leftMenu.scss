@@ -1,0 +1,26 @@
+.left-menu {
+  background-color: $base-dark;
+  width: 416px;
+  color: $white;
+  padding: 30px 50px;
+  min-height: calc(100vh - 90px);
+
+  h2 {
+    font: normal normal bold 32px/38px Roboto;
+    color: #FFFFFF;
+    padding-left: 20px;
+  }
+  a {
+    color: $white;
+  }
+  .nav-link {
+    margin-bottom: 8px;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-bottom: 8px;
+  }
+}

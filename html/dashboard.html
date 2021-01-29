@@ -1,0 +1,471 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/secondary/owl-carousel-min.css">
+    <link rel="stylesheet" href="../css/secondary/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/css/main.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="navigation-wrap">
+        <div class="container-fluid">
+            <a href="#">logo</a>
+        </div>
+    </header>
+    <main>
+        <div class="d-flex">
+            <div class="left-menu">
+                <h2 class="mb-4">Dashboard</h2>
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-SUMMARY-tab" data-toggle="pill" href="#v-pills-SUMMARY" role="tab" aria-controls="v-pills-SUMMARY" aria-selected="true">SUMMARY</a>
+                    <a class="nav-link" id="v-pills-LAMPS-tab" data-toggle="pill" href="#v-pills-LAMPS" role="tab" aria-controls="v-pills-LAMPS" aria-selected="false">LAMPS</a>
+                    <a class="nav-link" id="v-pills-REFILL-tab" data-toggle="pill" href="#v-pills-REFILL" role="tab" aria-controls="v-pills-REFILL" aria-selected="false">LAMP REFILL</a>
+                    <a class="nav-link" id="v-pills-BOUQUET-tab" data-toggle="pill" href="#v-pills-BOUQUET" role="tab" aria-controls="v-pills-BOUQUET" aria-selected="false">BOUQUET & BOUQUET REFILL</a>
+                    <a class="nav-link" id="v-pills-LAMP-tab" data-toggle="pill" href="#v-pills-LAMP" role="tab" aria-controls="v-pills-LAMP" aria-selected="false">LAMP GIFT SETS</a>
+                    <a class="nav-link" id="v-pills-CANDLES-tab" data-toggle="pill" href="#v-pills-CANDLES" role="tab" aria-controls="v-pills-CANDLES" aria-selected="false">CANDLES</a>
+                    <a class="nav-link" id="v-pills-DIFF-tab" data-toggle="pill" href="#v-pills-DIFF" role="tab" aria-controls="v-pills-DIFF" aria-selected="false">CAR & MIST DIFF</a>
+                    <a class="nav-link" id="v-pills-CHANCE-tab" data-toggle="pill" href="#v-pills-CHANCE" role="tab" aria-controls="v-pills-CHANCE" aria-selected="false">LAST CHANCE</a>
+                </div>
+            </div>
+            <div class="dashboard-content">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-SUMMARY" role="tabpanel" aria-labelledby="v-pills-SUMMARY-tab">
+
+                        <div class="mt-3">
+                            <div class="">
+                                <h2>Summary</h2>
+                            </div>
+                            <div class="table">
+                                <div class="thead-dark">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col"></div>
+                                        <div class="col col-2">UPC / Ref</div>
+                                        <div class="col">Item #</div>
+                                        <div class="col col-2">Description</div>
+                                        <div class="col">Cost</div>
+                                        <div class="col">*SRP</div>
+                                        <div class="col">Qty</div>
+                                        <div class="col">Total</div>
+                                        <div class="col"></div>
+                                    </div>
+                                </div>
+                                <div class="tbody">
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <span class="color-gray mr-2">Total:</span>
+                                <b class="color-base">000</b>
+                            </div>
+                            <div class="d-flex">
+                                <button class="btn-baseDark mr-3">Print</button>
+                                <button class="btn-baseDark">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-LAMPS" role="tabpanel" aria-labelledby="v-pills-LAMPS-tab">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <h2>Lamps</h2>
+                                <button class="btn-bordered-gray ml-3">+ Create</button>
+                            </div>
+                            <small class="d-flex">
+                                <span class="color-gray mr-2">case pack:</span>
+                                <span class="color-base">1unit</span>
+                            </small>
+                        </div>
+                        <div class="mt-3">
+                            <div class="table">
+                                <div class="thead-dark">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col"></div>
+                                        <div class="col col-2">UPC / Ref</div>
+                                        <div class="col">Item #</div>
+                                        <div class="col col-2">Description</div>
+                                        <div class="col">Cost</div>
+                                        <div class="col">*SRP</div>
+                                        <div class="col">Qty</div>
+                                        <div class="col">Total</div>
+                                        <div class="col"></div>
+                                    </div>
+                                </div>
+                                <div class="tbody">
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="mt-3 mb-2 color-base">Selected</h4>
+                            <div class="table">
+                                <div class="thead-dark">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col"></div>
+                                        <div class="col col-2">UPC / Ref</div>
+                                        <div class="col">Item #</div>
+                                        <div class="col col-2">Description</div>
+                                        <div class="col">Cost</div>
+                                        <div class="col">*SRP</div>
+                                        <div class="col">Qty</div>
+                                        <div class="col">Total</div>
+                                        <div class="col"></div>
+                                    </div>
+                                </div>
+                                <div class="tbody">
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-0 my-2 align-items-center">
+                                        <div class="col">
+                                            <label class="container-checkbox">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col col-2">31272900 <b class="color-base">4660</b> 4</div>
+                                        <div class="col">4660</div>
+                                        <div class="col col-2 d-flex text-left">HAUSSMANN PINK <img src="../img/smallImg1.png" alt="" class="ml-2"></div>
+                                        <div class="col">$25</div>
+                                        <div class="col">$50</div>
+                                        <div class="col">
+                                            <div>- 1 +</div>
+                                        </div>
+                                        <div class="col">$25</div>
+                                        <div class="col">
+                                            <a href="#" class="color-base"> <i class="fas fa-pen mr-3"></i></a>
+                                            <a href="#" class="color-base"> <i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <span class="color-gray mr-2">Total:</span>
+                                <b class="color-base">000</b>
+                            </div>
+                            <div class="d-flex">
+                                <button class="btn-baseDark mr-3">Print</button>
+                                <button class="btn-baseDark">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-REFILL" role="tabpanel" aria-labelledby="v-pills-REFILL-tab">REFILL</div>
+                    <div class="tab-pane fade" id="v-pills-BOUQUET" role="tabpanel" aria-labelledby="v-pills-BOUQUET-tab">BOUQUET</div>
+                    <div class="tab-pane fade" id="v-pills-LAMP" role="tabpanel" aria-labelledby="v-pills-LAMP-tab">LAMP</div>
+                    <div class="tab-pane fade" id="v-pills-CANDLES" role="tabpanel" aria-labelledby="v-pills-CANDLES-tab">CANDLES</div>
+                    <div class="tab-pane fade" id="v-pills-DIFF" role="tabpanel" aria-labelledby="v-pills-DIFF-tab">DIFF</div>
+                    <div class="tab-pane fade" id="v-pills-CHANCE" role="tabpanel" aria-labelledby="v-pills-CHANCE-tab">CHANCE</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script src="../js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

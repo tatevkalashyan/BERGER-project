@@ -1,0 +1,39 @@
+.dashboard-content {
+  background-color: #D1D1D1;
+  padding: 30px 100px;
+  flex: 1;
+  h2 {
+    font: normal normal bold 32px/38px "Roboto";
+    color: #161616;
+  }
+  .table {
+    .thead-dark {
+      background-color: $base-dark;
+      .row {
+        height: 56px;
+        .col {
+          font: normal normal medium 16px/21px "Roboto";
+          color: #FFFFFF;
+        }
+      }
+    }
+    .col {
+      padding: 5px 30px;
+      text-align: center;
+    }
+    .tbody .row {
+      background-color: white;
+      box-shadow: 0 0 6px #00000029;
+      .col {
+        font: normal normal normal 16px/19px "Roboto";
+        color: #161616;
+      }
+    }
+    .container-checkbox {
+      margin-bottom: 24px;
+      input:checked ~ .checkmark {
+        background-color: transparent;
+      }
+    }
+  }
+}
